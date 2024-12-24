@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --color-dark: rgb(28, 28, 28);
+    --color-silver: rgb(190, 190, 190);
+}
+
+* {
+    all: unset;
+    display: revert;
+}
+
+body {
+    background-color: var(--color-dark);
+    color: var(--color-silver);
+    font-family: "Rubik", serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.app {
+    margin-top: 13%;
+}
+
+.container {
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.input__field {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    border-bottom: 1px solid var(--color-silver);
+}
+
+.input__field:last-child {
+    margin-bottom: 0;
+}
+
+.button__container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.button__item {
+    background-color: var(--color-silver);
+    color: var(--color-dark);
+    border-radius: 10px;
+    padding: 10px 40px; 
+    cursor: pointer;
+}
+
+.button__item:active {
+    opacity: 0.8;
+}
+
+.response__number {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
