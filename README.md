@@ -1,2 +1,1 @@
-#Calculator
-https://alexandrvenomskiy.github.io/Calculator/
+Run https://alexandrvenomskiy.github.io/Calculator/
